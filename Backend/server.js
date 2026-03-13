@@ -17,7 +17,7 @@ nunjucks.configure('views', {// 문자열과 객체형태로 입력
 
 app.use('/', indexRouter)
 
-app.set('port', process.env.PORT ||5173)
+app.set('port', process.env.PORT || 3000)
 app.listen(app.get('port'), ()=>{
     console.log(app.get('port')+'번 포트에서 대기중')
 })

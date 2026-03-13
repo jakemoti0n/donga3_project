@@ -1,0 +1,11 @@
+[project]
+name = "mude_api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi==0.115.8",     
+    "uvicorn[standard]==0.30.6",
+    "pydantic>=2.0.0",      
+]
